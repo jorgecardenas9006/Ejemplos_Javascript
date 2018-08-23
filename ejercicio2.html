@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <h2>What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image</p>
+
+    <button onclick="encender()"></button>
+    <button onclick="apagar()"></button>
+
+    <img src="pic_bulboff.gif" id="myImage" style="width: 100px">
+
+    <script>
+        document.getElementById("myImage").src=""
+    </script>
+</body>
+</html>
